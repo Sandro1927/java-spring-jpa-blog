@@ -33,8 +33,8 @@ public class Category {
         return posts;
     }
 
-    public List<Post> addPost(List<Post> posts) {
-        return posts;
+    public void addPost(Post post) {
+        posts.add(post);;
     }
 
     @OneToMany
